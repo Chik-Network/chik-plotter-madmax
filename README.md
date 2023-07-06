@@ -138,7 +138,7 @@ cd chiapos && mkdir build && cd build && cmake .. && make -j8
 ## How to update to latest version
 
 ```bash
-cd chia-plotter
+cd chik-plotter
 git checkout master
 git pull
 ./make_devel.sh
@@ -177,7 +177,7 @@ https://github.com/stotiks/chia-plotter/releases
   ```bash
   # Checkout the source and install
   git clone https://github.com/Chia-Network/chia-plotter-madmax.git
-  cd chia-plotter
+  cd chik-plotter
 
   ./make_devel.sh
   ./build/chia_plot --help
@@ -189,7 +189,7 @@ https://github.com/stotiks/chia-plotter/releases
   
   ```bash
   git clone https://github.com/Chia-Network/chia-plotter-madmax.git
-  cd chia-plotter
+  cd chik-plotter
 
   sudo yum install epel-release -y
   sudo yum install cmake3 -y
@@ -218,7 +218,7 @@ https://github.com/stotiks/chia-plotter/releases
   # Checkout the source and install
   cd ~/
   git clone https://github.com/Chia-Network/chia-plotter-madmax.git
-  cd ~/chia-plotter
+  cd ~/chik-plotter
   ./make_devel.sh
   ./build/chia_plot --help
   ```
@@ -231,7 +231,7 @@ https://github.com/stotiks/chia-plotter/releases
   sudo apt install -y cmake g++ git build-essential
   # Checkout the source and install
   git clone https://github.com/Chia-Network/chia-plotter-madmax.git
-  cd chia-plotter
+  cd chik-plotter
 
   ./make_devel.sh
   ./build/chia_plot --help
@@ -251,7 +251,7 @@ https://github.com/stotiks/chia-plotter/releases
   sudo apt install -y g++ git
   # Checkout the source and install
   git clone https://github.com/Chia-Network/chia-plotter-madmax.git
-  cd chia-plotter
+  cd chik-plotter
 
   ./make_devel.sh
   ./build/chia_plot --help
@@ -267,11 +267,11 @@ https://github.com/stotiks/chia-plotter/releases
   # Download Xcode Command Line Tools (skip if you already have Xcode)
   xcode-select --install
 
-  # Now download chia-plotter's dependencies
+  # Now download chik-plotter's dependencies
   brew install cmake git
   brew link cmake
   git clone https://github.com/Chia-Network/chia-plotter-madmax.git
-  cd chia-plotter
+  cd chik-plotter
   ./make_devel.sh
   ./build/chia_plot --help
   ```
@@ -294,7 +294,7 @@ https://github.com/stotiks/chia-plotter/releases
   docker run \
     -v <path-to-your-tmp-dir>:/mnt/harvester \
     -v <path-to-your-final-dir>:/mnt/farm \
-    odelucca/chia-plotter \
+    odelucca/chik-plotter \
       -t /mnt/harvester/ \
       -d /mnt/farm/ \
       -p <pool-key> \
@@ -320,7 +320,7 @@ https://github.com/stotiks/chia-plotter/releases
     -v <path-to-your-final-dir>:/mnt/farm \
     -m 8G \
     --cpus 8 \
-    odelucca/chia-plotter \
+    odelucca/chik-plotter \
       -t /mnt/harvester/ \
       -d /mnt/farm/ \
       -p <pool-key> \
