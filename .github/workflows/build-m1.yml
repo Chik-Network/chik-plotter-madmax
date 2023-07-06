@@ -12,29 +12,6 @@ on:
       - '**'
 
 jobs:
-  build-debug:
-    runs-on: [m1]
-
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Install CMake
-      run: arch -arm64 brew install cmake
-
-    - name: Configure CMake
-      run: arch -arm64 cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Debug
-
-    - name: Build
-      run: arch -arm64 cmake --build ${{github.workspace}}/build --config Debug
-
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: Debug build
-        path: |
-          ${{github.workspace}}/build/chik_plot
-          ${{github.workspace}}/build/chik_plot_k34
-
   build-release:
     runs-on: [m1]
 
