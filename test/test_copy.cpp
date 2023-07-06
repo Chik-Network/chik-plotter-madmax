@@ -5,7 +5,7 @@
  *      Author: mad
  */
 
-#include <chia/copy.h>
+#include <chik/copy.h>
 
 #include <iostream>
 

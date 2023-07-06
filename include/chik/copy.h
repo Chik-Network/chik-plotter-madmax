@@ -21,8 +21,8 @@
 #include <filesystem>
 #endif
 
-#include <chia/settings.h>
-#include <chia/stdiox.hpp>
+#include <chik/settings.h>
+#include <chik/stdiox.hpp>
 
 inline
 uint64_t copy_file(const std::string& src_path, const std::string& dst_path)

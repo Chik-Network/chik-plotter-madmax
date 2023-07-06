@@ -8,11 +8,11 @@
 #ifndef INCLUDE_CHIA_PHASE2_HPP_
 #define INCLUDE_CHIA_PHASE2_HPP_
 
-#include <chia/phase2.h>
-#include <chia/DiskTable.h>
-#include <chia/ThreadPool.h>
+#include <chik/phase2.h>
+#include <chik/DiskTable.h>
+#include <chik/ThreadPool.h>
 
-#include <chia/bitfield_index.hpp>
+#include <chik/bitfield_index.hpp>
 
 
 namespace phase2 {

@@ -8,7 +8,7 @@
 #ifndef INCLUDE_CHIA_BUFFER_H_
 #define INCLUDE_CHIA_BUFFER_H_
 
-#include <chia/settings.h>
+#include <chik/settings.h>
 
 
 template<typename T>

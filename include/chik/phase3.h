@@ -8,7 +8,7 @@
 #ifndef INCLUDE_CHIA_PHASE3_H_
 #define INCLUDE_CHIA_PHASE3_H_
 
-#include <chia/phase2.h>
+#include <chik/phase2.h>
 
 
 namespace phase3 {

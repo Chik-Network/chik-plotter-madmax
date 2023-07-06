@@ -8,9 +8,9 @@
 #ifndef INCLUDE_CHIA_DISKTABLE_H_
 #define INCLUDE_CHIA_DISKTABLE_H_
 
-#include <chia/buffer.h>
-#include <chia/stdiox.hpp>
-#include <chia/ThreadPool.h>
+#include <chik/buffer.h>
+#include <chik/stdiox.hpp>
+#include <chik/ThreadPool.h>
 
 #include <cstdio>
 

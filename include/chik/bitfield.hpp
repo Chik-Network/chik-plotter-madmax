@@ -1,4 +1,4 @@
-// Copyright 2020 Chia Network Inc
+// Copyright 2020 Chik Network Inc
 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 #ifndef INCLUDE_CHIA_BITFIELD_H_
 #define INCLUDE_CHIA_BITFIELD_H_
 
-#include <chia/util.hpp>
+#include <chik/util.hpp>
 
 #include <memory>
 #include <atomic>

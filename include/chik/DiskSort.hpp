@@ -8,8 +8,8 @@
 #ifndef INCLUDE_CHIA_DISKSORT_HPP_
 #define INCLUDE_CHIA_DISKSORT_HPP_
 
-#include <chia/DiskSort.h>
-#include <chia/util.hpp>
+#include <chik/DiskSort.h>
+#include <chik/util.hpp>
 
 #include <map>
 #include <algorithm>

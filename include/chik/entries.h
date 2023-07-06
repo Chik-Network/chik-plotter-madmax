@@ -8,7 +8,7 @@
 #ifndef INCLUDE_CHIA_ENTRIES_H_
 #define INCLUDE_CHIA_ENTRIES_H_
 
-#include <chia/util.hpp>
+#include <chik/util.hpp>
 
 #include <cstdio>
 #include <cstdint>

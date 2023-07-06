@@ -1,5 +1,5 @@
 /*
- * chia.h
+ * chik.h
  *
  *  Created on: May 24, 2021
  *      Author: mad
@@ -12,7 +12,7 @@
 #include <cstdint>
 #include <string>
 
-#include <chia/settings.h>
+#include <chik/settings.h>
 
 
 // Unique plot id which will be used as a ChaCha8 key, and determines the PoSpace.

@@ -8,10 +8,10 @@
 #ifndef INCLUDE_CHIA_PHASE1_H_
 #define INCLUDE_CHIA_PHASE1_H_
 
-#include <chia/chia.h>
-#include <chia/entries.h>
-#include <chia/DiskSort.h>
-#include <chia/util.hpp>
+#include <chik/chik.h>
+#include <chik/entries.h>
+#include <chik/DiskSort.h>
+#include <chik/util.hpp>
 
 #include <array>
 #include <vector>

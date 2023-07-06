@@ -8,10 +8,10 @@
 #ifndef INCLUDE_CHIA_PHASE1_HPP_
 #define INCLUDE_CHIA_PHASE1_HPP_
 
-#include <chia/phase1.h>
-#include <chia/ThreadPool.h>
-#include <chia/DiskTable.h>
-#include <chia/bits.hpp>
+#include <chik/phase1.h>
+#include <chik/ThreadPool.h>
+#include <chik/DiskTable.h>
+#include <chik/bits.hpp>
 
 #include "blake3.h"
 #include "chacha8.h"

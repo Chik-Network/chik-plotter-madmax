@@ -8,10 +8,10 @@
 #ifndef INCLUDE_CHIA_PHASE3_HPP_
 #define INCLUDE_CHIA_PHASE3_HPP_
 
-#include <chia/chia.h>
-#include <chia/phase3.h>
-#include <chia/encoding.hpp>
-#include <chia/DiskTable.h>
+#include <chik/chik.h>
+#include <chik/phase3.h>
+#include <chik/encoding.hpp>
+#include <chik/DiskTable.h>
 
 #include <list>
 

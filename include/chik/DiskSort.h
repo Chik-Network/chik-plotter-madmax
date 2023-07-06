@@ -8,8 +8,8 @@
 #ifndef INCLUDE_CHIA_DISKSORT_H_
 #define INCLUDE_CHIA_DISKSORT_H_
 
-#include <chia/buffer.h>
-#include <chia/ThreadPool.h>
+#include <chik/buffer.h>
+#include <chik/ThreadPool.h>
 
 #include <vector>
 #include <string>

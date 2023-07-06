@@ -5,7 +5,7 @@
  *      Author: mad
  */
 
-#include <chia/phase4.hpp>
+#include <chik/phase4.hpp>
 
 #include <iostream>
 

@@ -5,11 +5,11 @@
  *      Author: mad
  */
 
-#include <chia/phase4.h>
-#include <chia/DiskSort.hpp>
+#include <chik/phase4.h>
+#include <chik/DiskSort.hpp>
 
-#include <chia/encoding.hpp>
-#include <chia/util.hpp>
+#include <chik/encoding.hpp>
+#include <chik/util.hpp>
 
 
 namespace phase4 {
