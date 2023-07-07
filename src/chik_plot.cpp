@@ -230,7 +230,7 @@ int _main(int argc, char** argv)
 	std::string tmp_dir2;
 	std::string final_dir;
 	int k = 32;
-	int port = 9678;			// 8444 = chia, 9699 = chives, 9678 = chik
+	int port = 8444;			// 8444 = chik, 9699 = chives
 	int num_plots = 1;
 	int num_threads = 4;
 	int num_buckets = 256;
