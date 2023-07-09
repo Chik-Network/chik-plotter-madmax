@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_COPY_H_
-#define INCLUDE_CHIA_COPY_H_
+#ifndef INCLUDE_CHIK_COPY_H_
+#define INCLUDE_CHIK_COPY_H_
 
 #include <string>
 #include <vector>
@@ -83,4 +83,4 @@ uint64_t final_copy(const std::string& src_path, const std::string& dst_path)
 }
 
 
-#endif /* INCLUDE_CHIA_COPY_H_ */
+#endif /* INCLUDE_CHIK_COPY_H_ */

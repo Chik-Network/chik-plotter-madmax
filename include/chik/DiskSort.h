@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_DISKSORT_H_
-#define INCLUDE_CHIA_DISKSORT_H_
+#ifndef INCLUDE_CHIK_DISKSORT_H_
+#define INCLUDE_CHIK_DISKSORT_H_
 
 #include <chik/buffer.h>
 #include <chik/ThreadPool.h>
@@ -99,4 +99,4 @@ private:
 
 
 
-#endif /* INCLUDE_CHIA_DISKSORT_H_ */
+#endif /* INCLUDE_CHIK_DISKSORT_H_ */

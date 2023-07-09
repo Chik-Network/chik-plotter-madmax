@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef INCLUDE_CHIA_BITFIELD_H_
-#define INCLUDE_CHIA_BITFIELD_H_
+#ifndef INCLUDE_CHIK_BITFIELD_H_
+#define INCLUDE_CHIK_BITFIELD_H_
 
 #include <chik/util.hpp>
 
@@ -105,4 +105,4 @@ private:
     int64_t size_;
 };
 
-#endif // INCLUDE_CHIA_BITFIELD_H_
+#endif // INCLUDE_CHIK_BITFIELD_H_

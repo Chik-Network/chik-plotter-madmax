@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_THREADPOOL_H_
-#define INCLUDE_CHIA_THREADPOOL_H_
+#ifndef INCLUDE_CHIK_THREADPOOL_H_
+#define INCLUDE_CHIK_THREADPOOL_H_
 
 #include <chik/Thread.h>
 
@@ -134,4 +134,4 @@ private:
 
 
 
-#endif /* INCLUDE_CHIA_THREADPOOL_H_ */
+#endif /* INCLUDE_CHIK_THREADPOOL_H_ */

@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_BUFFER_H_
-#define INCLUDE_CHIA_BUFFER_H_
+#ifndef INCLUDE_CHIK_BUFFER_H_
+#define INCLUDE_CHIK_BUFFER_H_
 
 #include <chik/settings.h>
 
@@ -42,4 +42,4 @@ struct write_buffer_t : byte_buffer_t<T> {
 };
 
 
-#endif /* INCLUDE_CHIA_BUFFER_H_ */
+#endif /* INCLUDE_CHIK_BUFFER_H_ */

@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_DISKSORT_HPP_
-#define INCLUDE_CHIA_DISKSORT_HPP_
+#ifndef INCLUDE_CHIK_DISKSORT_HPP_
+#define INCLUDE_CHIK_DISKSORT_HPP_
 
 #include <chik/DiskSort.h>
 #include <chik/util.hpp>
@@ -256,4 +256,4 @@ void DiskSort<T, Key>::close()
 }
 
 
-#endif /* INCLUDE_CHIA_DISKSORT_HPP_ */
+#endif /* INCLUDE_CHIK_DISKSORT_HPP_ */

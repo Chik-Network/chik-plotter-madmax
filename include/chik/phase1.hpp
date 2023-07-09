@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE1_HPP_
-#define INCLUDE_CHIA_PHASE1_HPP_
+#ifndef INCLUDE_CHIK_PHASE1_HPP_
+#define INCLUDE_CHIK_PHASE1_HPP_
 
 #include <chik/phase1.h>
 #include <chik/ThreadPool.h>
@@ -522,4 +522,4 @@ void compute(	const input_t& input, output_t& out,
 
 } // phase1
 
-#endif /* INCLUDE_CHIA_PHASE1_HPP_ */
+#endif /* INCLUDE_CHIK_PHASE1_HPP_ */

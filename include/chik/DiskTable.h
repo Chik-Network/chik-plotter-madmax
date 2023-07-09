@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_DISKTABLE_H_
-#define INCLUDE_CHIA_DISKTABLE_H_
+#ifndef INCLUDE_CHIK_DISKTABLE_H_
+#define INCLUDE_CHIK_DISKTABLE_H_
 
 #include <chik/buffer.h>
 #include <chik/stdiox.hpp>
@@ -151,4 +151,4 @@ private:
 };
 
 
-#endif /* INCLUDE_CHIA_DISKTABLE_H_ */
+#endif /* INCLUDE_CHIK_DISKTABLE_H_ */

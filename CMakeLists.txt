@@ -20,7 +20,7 @@ project(chik-plotter C CXX ASM)
 
 include(FetchContent)
 
-option(CHIA_PLOTTER_BUILD_TESTS "" off)
+option(CHIK_PLOTTER_BUILD_TESTS "" off)
 
 if(MSVC)
   enable_language(ASM_MASM)
@@ -170,7 +170,7 @@ target_include_directories(chik_plot_k34
 
 target_compile_definitions(chik_plot_k34
   PUBLIC
-    CHIA_K34=1
+    CHIK_K34=1
 )
 
 target_link_libraries(chik_plot_k34
@@ -179,7 +179,7 @@ target_link_libraries(chik_plot_k34
     bls
 )
 
-if(CHIA_PLOTTER_BUILD_TESTS)
+if(CHIK_PLOTTER_BUILD_TESTS)
   add_executable(test_copy test/test_copy.cpp)
   target_link_libraries(test_copy PRIVATE chik_plotter)
 

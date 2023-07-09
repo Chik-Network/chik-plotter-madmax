@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE2_HPP_
-#define INCLUDE_CHIA_PHASE2_HPP_
+#ifndef INCLUDE_CHIK_PHASE2_HPP_
+#define INCLUDE_CHIK_PHASE2_HPP_
 
 #include <chik/phase2.h>
 #include <chik/DiskTable.h>
@@ -174,4 +174,4 @@ void compute(	const phase1::output_t& input, output_t& out,
 
 } // phase2
 
-#endif /* INCLUDE_CHIA_PHASE2_HPP_ */
+#endif /* INCLUDE_CHIK_PHASE2_HPP_ */

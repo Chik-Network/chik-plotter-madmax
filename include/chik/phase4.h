@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE4_H_
-#define INCLUDE_CHIA_PHASE4_H_
+#ifndef INCLUDE_CHIK_PHASE4_H_
+#define INCLUDE_CHIK_PHASE4_H_
 
 #include <chik/phase3.h>
 
@@ -22,4 +22,4 @@ struct output_t {
 
 } // phase4
 
-#endif /* INCLUDE_CHIA_PHASE4_H_ */
+#endif /* INCLUDE_CHIK_PHASE4_H_ */

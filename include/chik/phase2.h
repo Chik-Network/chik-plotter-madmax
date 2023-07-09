@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE2_H_
-#define INCLUDE_CHIA_PHASE2_H_
+#ifndef INCLUDE_CHIK_PHASE2_H_
+#define INCLUDE_CHIK_PHASE2_H_
 
 #include <chik/chik.h>
 #include <chik/phase1.h>
@@ -33,7 +33,7 @@ struct entry_x {
 		pos = entry.pos;
 		off = entry.off;
 	}
-#ifdef CHIA_K34
+#ifdef CHIK_K34
 	size_t read(const uint8_t* buf) {
 		memcpy(&key, buf, 5);
 		key &= 0x7FFFFFFFF;				// 35 bit
@@ -110,4 +110,4 @@ struct output_t {
 
 } // phase2
 
-#endif /* INCLUDE_CHIA_PHASE2_H_ */
+#endif /* INCLUDE_CHIK_PHASE2_H_ */

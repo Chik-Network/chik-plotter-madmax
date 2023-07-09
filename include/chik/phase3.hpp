@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_PHASE3_HPP_
-#define INCLUDE_CHIA_PHASE3_HPP_
+#ifndef INCLUDE_CHIK_PHASE3_HPP_
+#define INCLUDE_CHIK_PHASE3_HPP_
 
 #include <chik/chik.h>
 #include <chik/phase3.h>
@@ -571,4 +571,4 @@ void compute(	phase2::output_t& input, output_t& out,
 
 } // phase3
 
-#endif /* INCLUDE_CHIA_PHASE3_HPP_ */
+#endif /* INCLUDE_CHIK_PHASE3_HPP_ */

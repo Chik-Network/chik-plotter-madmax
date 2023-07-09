@@ -5,8 +5,8 @@
  *      Author: mad
  */
 
-#ifndef INCLUDE_CHIA_CHIA_H_
-#define INCLUDE_CHIA_CHIA_H_
+#ifndef INCLUDE_CHIK_CHIK_H_
+#define INCLUDE_CHIK_CHIK_H_
 
 #include <chrono>
 #include <cstdint>
@@ -81,4 +81,4 @@ struct table_t {
 };
 
 
-#endif /* INCLUDE_CHIA_CHIA_H_ */
+#endif /* INCLUDE_CHIK_CHIK_H_ */
