@@ -64,7 +64,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y jq
-        echo "RELEASE_ID=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ steps.tag-name.outputs.TAG_NAME }} | jq '.id')" >> "$GITHUB_OUTPUT"
+        echo "RELEASE_ID=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ steps.tag-name.outputs.TAG_NAME }} | jq '.id')" >> "$GITHUB_OUTPUT"
 
     - name: Upload to Release
       if: startsWith(github.ref, 'refs/tags/')
