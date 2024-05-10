@@ -1,4 +1,4 @@
-name: CI Build Linux
+name: CI Build Linux ARM64
 
 on:
   push:
@@ -13,7 +13,7 @@ on:
 
 jobs:
   build-debug:
-    runs-on: ubuntu-latest
+    runs-on: [ARM64, Linux]
 
     steps:
     - uses: actions/checkout@v3
@@ -33,7 +33,7 @@ jobs:
           ${{github.workspace}}/build/chik_plot_k34
 
   build-release:
-    runs-on: ubuntu-latest
+    runs-on: [ARM64, Linux]
 
     steps:
     - uses: actions/checkout@v3
@@ -62,6 +62,8 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       id: release-id
       run: |
+        sudo apt-get update
+        sudo apt-get install -y jq
         echo "RELEASE_ID=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ steps.tag-name.outputs.TAG_NAME }} | jq '.id')" >> "$GITHUB_OUTPUT"
 
     - name: Upload to Release
@@ -73,7 +75,7 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Content-Type: $(file -b --mime-type ${{github.workspace}}/build/chik_plot)" \
           --data-binary @${{github.workspace}}/build/chik_plot \
-          https://uploads.github.com/repos/${{ github.repository }}/releases/${{ steps.release-id.outputs.RELEASE_ID }}/assets?name=chik_plot-${{ steps.tag-name.outputs.TAG_NAME }}-x86-64
+          https://uploads.github.com/repos/${{ github.repository }}/releases/${{ steps.release-id.outputs.RELEASE_ID }}/assets?name=chik_plot-${{ steps.tag-name.outputs.TAG_NAME }}-arm64
 
         curl \
           -X POST \
@@ -81,4 +83,4 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Content-Type: $(file -b --mime-type ${{github.workspace}}/build/chik_plot_k34)" \
           --data-binary @${{github.workspace}}/build/chik_plot_k34 \
-          https://uploads.github.com/repos/${{ github.repository }}/releases/${{ steps.release-id.outputs.RELEASE_ID }}/assets?name=chik_plot_k34-${{ steps.tag-name.outputs.TAG_NAME }}-x86-64
+          https://uploads.github.com/repos/${{ github.repository }}/releases/${{ steps.release-id.outputs.RELEASE_ID }}/assets?name=chik_plot_k34-${{ steps.tag-name.outputs.TAG_NAME }}-arm64
