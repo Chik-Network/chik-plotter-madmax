@@ -2,4 +2,4 @@
 
 #include <string>
 
-const std::string kVersion = "1.1.7" "-" "2092041";
+const std::string kVersion = "1.1.7" "-" GIT_COMMIT_HASH;
