@@ -13,7 +13,7 @@ on:
 
 jobs:
   build-debug:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
     - uses: actions/checkout@v3
@@ -33,7 +33,7 @@ jobs:
           ${{github.workspace}}/build/chik_plot_k34
 
   build-release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
     - uses: actions/checkout@v3
